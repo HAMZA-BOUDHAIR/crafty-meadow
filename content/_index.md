@@ -34,7 +34,7 @@ sections:
         Passionate about innovation and sustainability, I focus on **energy efficiency**, **hybrid storage**, and the integration of **AI-based optimization** into energy systems.
       button:
         text: Download CV
-        url: "https://drive.google.com/file/d/1RG3fKTwvXBXO4jonWnuZwXTfSY8L88K4/view?usp=sharing"
+        url: "https://drive.google.com/file/d/1WVR5Z5YO_u4jA9zIVkYhye9MBx3cq6_C/view?usp=sharing"
       headings:
         about: "About Me"
         education: "Education"
