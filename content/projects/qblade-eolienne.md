@@ -5,7 +5,7 @@ summary: "Aerodynamic modeling and blade geometry optimization of a HAWT using Q
 featured: true
 tags: ["Wind", "QBlade", "BEMT", "Optimization"]
 image:
-  filename: "qblade.jpg"   # mets cette image dans assets/media/qblade.jpg
+  filename: "qblade.png"   # mets cette image dans assets/media/qblade.jpg
   caption: "HAWT study with QBlade"
 links:
   - icon: file
