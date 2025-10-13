@@ -57,6 +57,12 @@ education:
     institution: Higher School of Technology, Guelmim
     date_start: 2019-09-01
     date_end: 2021-06-30
+  - area: Baccalaureate in Experimental Sciences – Physics Option
+    institution: Lycée Ibn Zohr, Morocco
+    date_start: 2017-09-01
+    date_end: 2018-06-30
+    summary: |
+      Graduated with honors in **Experimental Sciences (Physics specialization)**, developing early interest in applied physics and renewable energy.
 
 work:
   - position: Research Intern — Wind Turbine Simulation (QBlade)
