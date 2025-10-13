@@ -5,7 +5,7 @@ summary: "Study and design of an autonomous and grid-connected hybrid photovolta
 featured: false
 tags: ["Solar", "Hybrid", "Energy Analysis", "PV System"]
 image:
-  filename: "3.jpg"   # optionnel — mets une image ici: assets/media/pv-hybrid.jpg
+  filename: "3.jpeg"   # optionnel — mets une image ici: assets/media/pv-hybrid.jpg
 links:
   - icon: file
     icon_pack: fas
