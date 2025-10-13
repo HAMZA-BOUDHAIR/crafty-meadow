@@ -12,9 +12,13 @@ last_name: BOUDHAIR
 # Pronouns (optional)
 pronouns: he/him
 
-# Status emoji
 status:
   icon: ☀️
+avatar:
+  filename: "image.jpg"
+  shape: circle
+  size: large
+
 
 # Is this the primary user of the site?
 superuser: true
