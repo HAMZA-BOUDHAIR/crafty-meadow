@@ -1,11 +1,11 @@
 ---
-title: "Techno-Economic Assessment of a Grid-Connected PV System (PVSYST)"
+title: "Techno-Economic Assessment of a Grid-Connected PV System "
 date: 2022-06-30
 summary: "Design, simulation, and economic analysis of grid-connected PV systems using PVSYST."
 featured: true
 tags: ["Solar", "PVSYST", "Techno-economic", "LCOE"]
 image:
-  filename: "pv-grid.jpg"
+  filename: "pv-grid.jpeg"
   caption: "Simulation of PV system under real conditions"
 links:
   - icon: file
