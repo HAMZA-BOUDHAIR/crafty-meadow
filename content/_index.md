@@ -1,5 +1,4 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
 date: 2025-10-13
 type: landing
@@ -8,6 +7,22 @@ design:
   spacing: '6rem'
 
 sections:
+  # HERO (optional but recommended). Put image at assets/media/hamza.jpg
+  - block: hero
+    content:
+      title: "Hamza BOUDHAIR"
+      subtitle: "Renewable Energy Engineer — Simulation & Optimization"
+      image:
+        filename: "hamza.jpg"
+      cta:
+        label: "Download CV"
+        url: "/media/cv-hamza-boudhair.pdf"   # place file in static/media/
+      cta_alt:
+        label: "Contact Me"
+        url: "mailto:hamza.boudhair@gmail.com"
+    design:
+      css_class: hbx-bg-gradient
+
   - block: resume-biography-3
     content:
       username: admin
@@ -19,15 +34,14 @@ sections:
         Passionate about innovation and sustainability, I focus on **energy efficiency**, **hybrid storage**, and the integration of **AI-based optimization** into energy systems.
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: "/media/cv-hamza-boudhair.pdf"
       headings:
         about: "About Me"
         education: "Education"
         interests: "Research Interests"
     design:
-      css_class: hbx-bg-gradient
       avatar:
-        size: medium
+        size: large
         shape: circle
 
   - block: markdown
@@ -44,12 +58,22 @@ sections:
       columns: '1'
 
   - block: collection
+    id: papers
+    content:
+      title: Featured Publications
+      filters:
+        folders: [publications]
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 2
+
+  - block: collection
     id: projects
     content:
       title: Featured Projects
       filters:
-        folders:
-          - projects
+        folders: [projects]
         featured_only: true
     design:
       view: article-grid
@@ -58,10 +82,8 @@ sections:
   - block: collection
     content:
       title: Latest Projects
-      text: ''
       filters:
-        folders:
-          - projects
+        folders: [projects]
         exclude_featured: false
     design:
       view: card
@@ -70,8 +92,6 @@ sections:
     id: news
     content:
       title: Recent News & Updates
-      subtitle: ''
-      text: ''
       page_type: blog
       count: 5
       filters:
@@ -85,16 +105,16 @@ sections:
 
   - block: cta-card
     content:
-      title: 🌍 Let's Collaborate
+      title: "🌍 Let's Collaborate"
       text: |-
         I’m always open to collaborations in **renewable energy modeling, optimization, and AI-assisted design**.  
         Feel free to reach out for academic or industrial research opportunities.
 
         📧 **hamza.boudhair@gmail.com**  
-        🔗 [LinkedIn](https://www.linkedin.com/in/hamza-boudhair)
+        🔗 LinkedIn: https://www.linkedin.com/in/hamza-boudhair
       button:
         text: Contact Me
-        url: mailto:hamza.boudhair@gmail.com
+        url: "mailto:hamza.boudhair@gmail.com"
     design:
       card:
         css_class: 'bg-primary-300'
