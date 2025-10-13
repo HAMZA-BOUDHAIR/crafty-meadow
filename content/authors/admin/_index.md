@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Alex Johnson
+title: Hamza BOUDHAIR
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Hamza
+last_name: BOUDHAIR
 
 # Pronouns (optional)
 pronouns: he/him
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: ☀️
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,147 +23,126 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Renewable Energy Engineer | Simulation & Optimization Specialist
 
-# Organizations/Affiliations to display in Biography blox
+# Organizations/Affiliations to display in Biography block
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Energy, Mechanics & Environment Laboratory (ENSA Agadir)
+    url: ''
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:hamza.boudhair@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
-  - icon: brands/github
-    url: https://github.com/alexjohnsonai
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/hamza-boudhair
+  - icon: brands/github
+    url: https://github.com/hamza-boudhair
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Renewable Energy Systems (Solar & Wind)
+  - Energy Optimization and Efficiency
+  - Hybrid Energy Storage (Gravity-based)
+  - Reliability and Degradation of PV Modules
+  - Artificial Intelligence for Energy Applications
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: Master’s in Electronics and Materials for Renewable & New Energies
+    institution: Faculty of Polydisciplinary Studies, Ouarzazate, Morocco
+    date_start: 2023-09-01
+    date_end: 2025-06-30
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+      Specialized in photovoltaic materials, wind turbine simulation (QBlade), and energy optimization using AI techniques.
+  - area: Professional Bachelor’s in Renewable Energies & Sustainable Development
+    institution: Higher School of Technology, Essaouira
+    date_start: 2021-09-01
+    date_end: 2022-06-30
     summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+      Focus on system sizing, energy auditing, and techno-economic analysis.
+  - area: DUT in Renewable Energies & Energy Efficiency
+    institution: Higher School of Technology, Guelmim
+    date_start: 2019-09-01
+    date_end: 2021-06-30
     summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      Hands-on training in photovoltaic and wind systems, power electronics, and energy efficiency.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    company_logo: ''
-    date_start: 2020-01-01
-    date_end: ''
+  - position: Research Intern — Wind Energy Simulation
+    company_name: National School of Applied Sciences (ENSA Agadir)
+    company_url: ''
+    date_start: 2025-02-01
+    date_end: 2025-06-30
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Conducted numerical study of a horizontal-axis wind turbine using QBlade (BEMT theory) to optimize blade geometry and aerodynamic performance.
+  - position: Engineering Intern — PV Techno-Economic Analysis
+    company_name: ECOWATT, Agadir
+    company_url: ''
+    date_start: 2022-04-01
+    date_end: 2022-06-30
+    summary: |2-
+      Designed and simulated grid-connected solar installations using PVSYST; evaluated energy yield and investment costs.
+  - position: Engineering Intern — Hybrid PV Systems
+    company_name: Regional Directorate of Energy and Mines, Agadir
+    company_url: ''
+    date_start: 2021-04-01
+    date_end: 2021-06-30
+    summary: |2-
+      Worked on standalone and hybrid photovoltaic systems, assessing energy demand and designing optimal configurations.
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
-        description: ''
+      - name: PV & Wind Simulation
+        description: PVSYST, PV*SOL, RETScreen, TRNSYS, QBlade
         percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
+        icon: bolt
+      - name: Programming & Data Analysis
+        description: Python, MATLAB
         percent: 90
+        icon: code-bracket
+      - name: Electrical & Control Systems
+        description: Power electronics, electrical machines, and automation
+        percent: 85
         icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
-        icon: book-open
+  - name: Professional Strengths
+    color: '#2BBBAD'
+    color_border: '#00796B'
+    items:
+      - name: Project Management
+        description: Planning, supervision, and reporting
+        percent: 85
+        icon: briefcase
+      - name: Technical Writing & Communication
+        description: Clear reporting and team collaboration
+        percent: 90
+        icon: chat-bubble-left-right
 
 languages:
-  - name: English
+  - name: Arabic
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: Tamazight
+    percent: 100
+  - name: French
+    percent: 90
+  - name: English
+    percent: 90
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
+  - title: Certification — MATLAB Programming for Energy Systems
+    date: '2024-05-01'
+    awarder: MathWorks
+    icon: hero/code-bracket
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+      Completed an advanced MATLAB course focused on energy data modeling and control system simulation.
+  - title: Certification — PV System Simulation (PVSYST & PV*SOL)
+    date: '2025-03-01'
+    awarder: Training Institute for Renewable Energies
     icon: hero/academic-cap
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Certified in photovoltaic system design and simulation using professional software.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Hamza BOUDHAIR is a renewable energy engineer passionate about sustainable technologies and energy optimization.  
+With a background in **solar and wind system simulation**, **energy efficiency**, and **AI-based modeling**, he seeks to contribute to innovative research in renewable energy, hybrid storage, and smart grid systems.  
+Outside of his research, Hamza enjoys reading about emerging technologies, exploring nature, and sharing knowledge through scientific collaboration.
