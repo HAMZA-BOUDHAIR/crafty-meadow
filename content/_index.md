@@ -34,7 +34,7 @@ sections:
         Passionate about innovation and sustainability, I focus on **energy efficiency**, **hybrid storage**, and the integration of **AI-based optimization** into energy systems.
       button:
         text: Download CV
-        url: "/media/cv-hamza-boudhair.pdf"
+        url: "https://drive.google.com/file/d/1RG3fKTwvXBXO4jonWnuZwXTfSY8L88K4/view?usp=sharing"
       headings:
         about: "About Me"
         education: "Education"
