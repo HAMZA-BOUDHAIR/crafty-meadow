@@ -1,32 +1,32 @@
 ---
-title: ''
+title: ""
 date: 2025-10-13
 type: landing
 
 design:
-  spacing: '6rem'
+  spacing: "6rem"
 
 sections:
-  # HERO (optional but recommended). Put image at assets/media/hamza.jpg
-   - block: hero
+  - block: hero
     content:
-      title: ""
+      title: ""        # <-- vide = plus de "Hamza BOUDHAIR" au milieu
       subtitle: ""
       image:
         filename: "hamza.jpg"
     design:
       css_class: hbx-bg-gradient
 
-
   - block: resume-biography-3
     content:
       username: admin
-      text: >
-        I’m **Hamza BOUDHAIR**, a renewable energy engineer specializing in the **modeling, simulation, and optimization** of photovoltaic and wind systems.  
-        I hold a **Master’s degree in Electronics and Materials for Renewable and New Energies** from the Faculty of Polydisciplinary Studies of Ouarzazate (Morocco).  
-        My academic and professional experiences include work at the **ENSA Agadir Energy & Environment Laboratory**, **ECOWATT**, and the **Regional Directorate of Energy**.  
-
-        Passionate about innovation and sustainability, I focus on **energy efficiency**, **hybrid storage**, and the integration of **AI-based optimization** into energy systems.
+      text: >-
+        I’m **Hamza BOUDHAIR**, a renewable energy engineer specializing in the
+        **modeling, simulation, and optimization** of photovoltaic and wind systems.
+        I hold a **Master’s degree in Electronics and Materials for Renewable and
+        New Energies** from the Faculty of Polydisciplinary Studies of Ouarzazate (Morocco).
+        My experiences include **ENSA Agadir Energy & Environment Lab**, **ECOWATT**,
+        and the **Regional Directorate of Energy**. Passionate about innovation and
+        sustainability, I focus on **energy efficiency**, **hybrid storage**, and **AI-based optimization**.
       button:
         text: Download CV
         url: "https://drive.google.com/file/d/1WVR5Z5YO_u4jA9zIVkYhye9MBx3cq6_C/view?usp=sharing"
@@ -41,16 +41,16 @@ sections:
 
   - block: markdown
     content:
-      title: '⚡ Research & Expertise'
-      subtitle: ''
+      title: "⚡ Research & Expertise"
+      subtitle: ""
       text: |-
-        My research focuses on **renewable energy systems**, particularly the **simulation, optimization, and techno-economic analysis** of solar and wind systems.  
-        
-        I am also exploring the **reliability and degradation of PV modules** in desert environments, **hybrid energy storage** (including gravity-based systems), and **AI applications** for energy performance optimization.
+        My research focuses on **renewable energy systems**, particularly the **simulation,
+        optimization, and techno-economic analysis** of solar and wind systems.
 
-        > “Clean energy and intelligent optimization are key to a sustainable future.”
+        I am also exploring the **reliability and degradation of PV modules** in desert environments,
+        **hybrid energy storage** (including gravity-based systems), and **AI applications**.
     design:
-      columns: '1'
+      columns: "1"
 
   - block: collection
     id: papers
@@ -102,8 +102,8 @@ sections:
     content:
       title: "🌍 Let's Collaborate"
       text: |-
-        I’m always open to collaborations in **renewable energy modeling, optimization, and AI-assisted design**.  
-        Feel free to reach out for academic or industrial research opportunities.
+        I’m always open to collaborations in **renewable energy modeling, optimization,
+        and AI-assisted design**. Feel free to reach out.
 
         📧 **hamza.boudhair@gmail.com**  
         🔗 LinkedIn: https://www.linkedin.com/in/hamza-boudhair
@@ -112,5 +112,5 @@ sections:
         url: "mailto:hamza.boudhair@gmail.com"
     design:
       card:
-        css_class: 'bg-primary-300'
+        css_class: "bg-primary-300"
 ---
