@@ -21,11 +21,11 @@ sections:
     content:
       title: ""
       items:
-        - image: "schneider-finance.jpg"
+        - image: "33F.jpg"
           caption: "Schneider Electric University — Analyse financière des projets I (2024)"
-        - image: "schneider-audit.jpg"
+        - image: "22A.jpg"
           caption: "Schneider Electric University — Instruments de mesure pour les audits énergétiques I (2023)"
-        - image: "clarivate-wos.jpg"
+        - image: "11C.jpg"
           caption: "Clarivate — Exploring a Research Topic with the Web of Science (2025)"
     design:
       view: masonry
