@@ -8,20 +8,15 @@ design:
 
 sections:
   # HERO (optional but recommended). Put image at assets/media/hamza.jpg
-  - block: hero
+   - block: hero
     content:
-      title: "Hamza BOUDHAIR"
-      subtitle: "Renewable Energy Engineer — Simulation & Optimization"
+      title: ""
+      subtitle: ""
       image:
         filename: "hamza.jpg"
-      cta:
-        label: "Download CV"
-        url: "/media/cv-hamza-boudhair.pdf"   # place file in static/media/
-      cta_alt:
-        label: "Contact Me"
-        url: "mailto:hamza.boudhair@gmail.com"
     design:
       css_class: hbx-bg-gradient
+
 
   - block: resume-biography-3
     content:
