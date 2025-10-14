@@ -54,17 +54,17 @@ sections:
       view: article-grid
       columns: 2
 
-  - block: gallery
+   - block: gallery
     content:
       title: "🎓 Certifications"
       subtitle: "Professional & Technical Training"
-      text: "A selection of certifications demonstrating technical and analytical expertise in renewable energy and research tools."
+      text: "Recognized certifications demonstrating technical and analytical expertise in renewable energy and research tools."
       items:
-        - image: "certifications/schneider-finance.jpg"
+        - image: "schneider-finance.jpg"
           caption: "Schneider Electric University — Analyse financière des projets I (2024)"
-        - image: "certifications/schneider-audit.jpg"
+        - image: "schneider-audit.jpg"
           caption: "Schneider Electric University — Instruments de mesure pour les audits énergétiques I (2023)"
-        - image: "certifications/clarivate-wos.jpg"
+        - image: "clarivate-wos.jpg"
           caption: "Clarivate — Exploring a Research Topic with the Web of Science (2025)"
     design:
       view: masonry
