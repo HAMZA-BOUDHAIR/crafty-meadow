@@ -25,3 +25,8 @@ main:
   - name: Courses
     url: courses/
     weight: 40
+    main:
+  - name: Certifications
+    url: /certifications/
+    weight: 45
+
