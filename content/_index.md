@@ -42,22 +42,11 @@ sections:
         **hybrid energy storage** (including gravity-based systems), and **AI applications**.
     design:
       columns: "1"
-  - block: gallery
-    content:
-      title: "🎓 Certifications"
-      items:
-        - image: "certifications/schneider-finance.jpg"
-          caption: "Analyse financière des projets I"
-        - image: "certifications/schneider-audit.jpg"
-          caption: "Instruments d’audit énergétique I"
-    design:
-      view: masonry
-      columns: 2
 
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: "📄 Featured Publications"
       filters:
         folders: [publications]
         featured_only: true
@@ -65,10 +54,26 @@ sections:
       view: article-grid
       columns: 2
 
+  - block: gallery
+    content:
+      title: "🎓 Certifications"
+      subtitle: "Professional & Technical Training"
+      text: "A selection of certifications demonstrating technical and analytical expertise in renewable energy and research tools."
+      items:
+        - image: "certifications/schneider-finance.jpg"
+          caption: "Schneider Electric University — Analyse financière des projets I (2024)"
+        - image: "certifications/schneider-audit.jpg"
+          caption: "Schneider Electric University — Instruments de mesure pour les audits énergétiques I (2023)"
+        - image: "certifications/clarivate-wos.jpg"
+          caption: "Clarivate — Exploring a Research Topic with the Web of Science (2025)"
+    design:
+      view: masonry
+      columns: 3
+
   - block: collection
     id: projects
     content:
-      title: Featured Projects
+      title: "🧩 Featured Projects"
       filters:
         folders: [projects]
         featured_only: true
@@ -78,7 +83,7 @@ sections:
 
   - block: collection
     content:
-      title: Latest Projects
+      title: "Latest Projects"
       filters:
         folders: [projects]
         exclude_featured: false
@@ -88,7 +93,7 @@ sections:
   - block: collection
     id: news
     content:
-      title: Recent News & Updates
+      title: "📰 Recent News & Updates"
       page_type: blog
       count: 5
       filters:
@@ -105,12 +110,12 @@ sections:
       title: "🌍 Let's Collaborate"
       text: |-
         I’m always open to collaborations in **renewable energy modeling, optimization,
-        and AI-assisted design**. Feel free to reach out.
+        and AI-assisted design**. Feel free to reach out for academic or industrial projects.
 
         📧 **hamza.boudhair@gmail.com**  
-        🔗 LinkedIn: https://www.linkedin.com/in/hamza-boudhair
+        🔗 LinkedIn: [https://www.linkedin.com/in/hamza-boudhair](https://www.linkedin.com/in/hamza-boudhair)
       button:
-        text: Contact Me
+        text: "Contact Me"
         url: "mailto:hamza.boudhair@gmail.com"
     design:
       card:
