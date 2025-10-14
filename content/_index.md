@@ -54,7 +54,7 @@ sections:
       view: article-grid
       columns: 2
 
-   - block: gallery
+  - block: gallery
     content:
       title: "🎓 Certifications"
       subtitle: "Professional & Technical Training"
@@ -113,7 +113,7 @@ sections:
         and AI-assisted design**. Feel free to reach out for academic or industrial projects.
 
         📧 **hamza.boudhair@gmail.com**  
-        🔗 LinkedIn: [https://www.linkedin.com/in/hamza-boudhair](https://www.linkedin.com/in/hamza-boudhair)
+        🔗 LinkedIn: https://www.linkedin.com/in/hamza-boudhair
       button:
         text: "Contact Me"
         url: "mailto:hamza.boudhair@gmail.com"
