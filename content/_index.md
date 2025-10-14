@@ -42,6 +42,17 @@ sections:
         **hybrid energy storage** (including gravity-based systems), and **AI applications**.
     design:
       columns: "1"
+  - block: gallery
+    content:
+      title: "🎓 Certifications"
+      items:
+        - image: "certifications/schneider-finance.jpg"
+          caption: "Analyse financière des projets I"
+        - image: "certifications/schneider-audit.jpg"
+          caption: "Instruments d’audit énergétique I"
+    design:
+      view: masonry
+      columns: 2
 
   - block: collection
     id: papers
