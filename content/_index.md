@@ -7,15 +7,6 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: hero
-    content:
-      title: ""        # <-- vide = plus de "Hamza BOUDHAIR" au milieu
-      subtitle: ""
-      image:
-        filename: "hamza.jpg"
-    design:
-      css_class: hbx-bg-gradient
-
   - block: resume-biography-3
     content:
       username: admin
